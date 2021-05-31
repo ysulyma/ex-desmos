@@ -1,0 +1,28 @@
+{
+  "name": "ex-desmos",
+  "version": "1.0.0",
+  "description": "Example of using Desmos in ractive-player",
+  "main": "bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysulyma/ex-desmos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ysulyma/ex-desmos/issues"
+  },
+  "homepage": "https://github.com/ysulyma/ex-desmos#readme",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
+    "bezier-easing": "^2.1.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.24.0",
+    "ractive-player": "^2.0.5",
+    "rp-prompt": "^1.0.1",
+    "rp-recording": "^2.0.1",
+    "ts-loader": "^9.2.2",
+    "webpack": "^5.38.1"
+  }
+}
