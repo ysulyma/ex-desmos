@@ -1,11 +1,8 @@
-import {useCallback, useState} from "react";
 import {Expression} from "desmos-react";
 
-import {useTimeUpdate, useValue} from "ractive-player";
 import {F, G, GF, drawTangents} from "./config";
 
-import * as BezierEasing from "bezier-easing";
-import {easeInCubic} from "@lib/easings";
+import {useValue} from "../helpers";
 
 export function Tangents() {
   const p = useValue(drawTangents);

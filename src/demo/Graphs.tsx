@@ -1,9 +1,8 @@
-import {useCallback, useState} from "react";
 import {Expression} from "desmos-react";
 
 import {F, G, GF, fOpacity, gOpacity, gfOpacity} from "./config";
 
-import {useValue} from "ractive-player";
+import {useValue} from "../helpers";
 
 export function Graphs() {
   return (

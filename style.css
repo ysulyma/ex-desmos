@@ -1,0 +1,28 @@
+.rp-prompt {
+  z-index: 1000;
+}
+
+.ractive-player {
+  --rp-canvas-height: calc(var(--rp-height) - var(--rp-controls-height));
+}
+.calculator {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: var(--rp-canvas-height);
+  width: 100%;
+}
+
+/* fix CSS bugs in RP */
+.rp-settings-speed-dialog {
+  font-family: sans-serif;
+}
+
+.rp-settings-dialog {
+  width: 11em;
+}
+
+.rp-captions-display {
+  background: rgba(0, 0, 0, 0.7);
+  color:  #FFF;
+}

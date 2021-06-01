@@ -5,6 +5,9 @@
 # ignore node_modules
 /node_modules
 
+# generated files
+bundle.js
+
 # media
 /audio
 /thumbs

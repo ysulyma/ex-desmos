@@ -1,26 +1,15 @@
 import {Script} from "ractive-player";
 
 const markers = [
-  ["demo/", "1:00"],
-  ["demo/f", "1:00"],
-  ["demo/g", "1:00"],
-  ["demo/gf", "1:00"],
-  ["demo/x", "1:00"],
-  ["demo/u", "1:00"],
-  ["demo/y", "1:00"],
-  ["demo/tangents", "1:00"],
-  ["demo/slopes", "1:00"]
-];
-
-// const markers = [
-//   ["title/","1:00"],
-//   ["title/d1","1:00"],
-//   ["title/e2","1:00"],
-//   ["sseq/y","1:00"],
-//   ["sseq/d","1:00"],
-//   ["sseq/xy","1:00"],
-//   ["sseq/resize","1:00"],
-//   ["sseq/dz","1:00"]
-// ] as [string, string][];
+  ["demo/", "0:05.516"],
+  ["demo/f", "0:01.617"],
+  ["demo/g", "0:11.150"],
+  ["demo/gf", "0:03.749"],
+  ["demo/x", "0:03.596"],
+  ["demo/u", "0:04.843"],
+  ["demo/y", "0:22.808"],
+  ["demo/tangents", "0:08.120"],
+  ["demo/slopes", "0:07.624"]
+] as [string, string][];
 
 export const script = new Script(markers);

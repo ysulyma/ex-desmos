@@ -1,0 +1,101 @@
+WEBVTT
+
+1
+00:00.820 --> 00:04.090
+In this video I'm gonna explain the idea of composing functions.
+
+2
+00:04.480 --> 00:07.660
+So if we have a function f, and another function g,
+
+3
+00:07.880 --> 00:10.230
+so here I've chosen  x squared and cosine x,
+
+4
+00:10.230 --> 00:12.420
+but you can change them in the sidebar
+
+5
+00:12.610 --> 00:15.380
+we can form a new function by taking the output of f
+
+6
+00:15.410 --> 00:17.050
+and using that as the input to g.
+
+7
+00:17.610 --> 00:19.560
+So here's what the graph of that looks like.
+
+8
+00:20.270 --> 00:21.500
+Let's step through this slowly.
+
+9
+00:22.170 --> 00:25.250
+First we plug our x value into f, then we
+
+10
+00:25.250 --> 00:27.380
+take the y value that f spit out
+
+11
+00:27.460 --> 00:29.320
+and use that as the x value for g.
+
+12
+00:29.920 --> 00:31.930
+And then whatever g spits out is
+
+13
+00:31.930 --> 00:34.170
+the value of the composed function at x.
+
+14
+00:35.200 --> 00:37.620
+The reason we're interested in this concept is that
+
+15
+00:37.650 --> 00:39.760
+if we've got a complicated function and
+
+16
+00:39.760 --> 00:42.440
+we can break it down as a composite of simpler functions,
+
+17
+00:42.850 --> 00:44.970
+we can often understand something about the complicated
+
+18
+00:44.970 --> 00:47.670
+function just by understanding it for each of the simpler
+
+19
+00:47.670 --> 00:49.790
+functions individually, which is a lot easier.
+
+20
+00:50.380 --> 00:52.930
+For example, in calculus we're interested
+
+21
+00:52.930 --> 00:57.250
+in tangent lines to a curve. The chain rule says that
+
+22
+00:57.250 --> 00:59.660
+the slope of the tangent line at a point on the
+
+23
+00:59.660 --> 01:03.440
+composite  graph is the product of the slopes of
+
+24
+01:03.440 --> 01:05.680
+the tangent lines at the corresponding points on
+
+25
+01:05.680 --> 01:08.190
+the graphs of f and g, as you can see here.

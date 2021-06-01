@@ -1,9 +1,10 @@
 import Desmos from "desmos";
-import {Utils} from "ractive-player";
-const {animate} = Utils.animation;
+
 
 import * as bz from "bezier-easing";
-import {easeInCubic, easeOutCubic, easeInSine, easeInOutCubic} from "@lib/easings";
+
+import {animate} from "../helpers";
+import {easeInCubic, easeOutCubic, easeInSine, easeInOutCubic} from "../easings";
 
 import {script} from "../script";
 
@@ -16,7 +17,6 @@ export const LINE_COLOR = Desmos.Colors.BLACK;
 
 // animations
 const m = script.parseStart;
-console.log(script, script.parseStart);
 
 const lineUDuration = 1000;
 const lineYDuration = 500;
@@ -85,4 +85,3 @@ export const showU = (t: number) => (t >= uStart);
 
 const yStart = m("demo/y") + lineYDuration;
 export const showY = (t: number) => (t >= yStart);
-

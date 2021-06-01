@@ -1,9 +1,6 @@
-import {useCallback} from "react";
-
 import {Expression, useHelperExpression} from "desmos-react";
 
-import {Utils, useScript, useMarkerUpdate, useValue, useValueM} from "ractive-player";
-const {useForceUpdate} = Utils.react;
+import {useValue, useValueM} from "../helpers";
 
 import {script} from "../script";
 
@@ -13,10 +10,6 @@ const slopesIndex = script.markerNumberOf("demo/slopes"),
       showSlopes = () => script.markerIndex >= slopesIndex;
 
 export function Points() {
-  const y = useValue(showY);
-  const x = useValueM(showX);
-  const u = useValue(showU);
-
   const showLabel = useValueM(showSlopes);
 
   const dx = (useHelperExpression({latex: "f'(a)"}) ?? 0).toFixed(2);

@@ -1,1 +1,1 @@
-export const DemoPrompt = null;
+export const DemoPrompt = () => null;
