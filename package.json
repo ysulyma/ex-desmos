@@ -19,7 +19,7 @@
     "@typescript-eslint/eslint-plugin": "^4.25.0",
     "@typescript-eslint/parser": "^4.25.0",
     "bezier-easing": "^2.1.0",
-    "desmos-react": "^1.0.2",
+    "desmos-react": "^1.0.3",
     "eslint": "^7.27.0",
     "eslint-plugin-react": "^7.24.0",
     "ractive-player": "^2.0.5",
