@@ -49,7 +49,7 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
     alias: {
-      "@env": path.join(__dirname, "src", "@" + env),
+      "@env": path.join(__dirname, "src", env),
       "@lib": path.join(__dirname, "lib")
     }
   }
