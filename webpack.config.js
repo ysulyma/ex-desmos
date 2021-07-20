@@ -6,10 +6,11 @@ module.exports = {
   entry: `./src/index.tsx`,
   output: {
     filename: "bundle.js",
-    path: __dirname
+    path: process.cwd()
   },
 
   externals: {
+    "desmos": "Desmos",
     "liqvid": "Liqvid",
     "ractive-player": "RactivePlayer",
     "react": "React",
@@ -23,10 +24,6 @@ module.exports = {
       {
         test: /\.[jt]sx?$/,
         loader: "ts-loader"
-      },
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"]
       }
     ],
   },
@@ -49,8 +46,7 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
     alias: {
-      "@env": path.join(__dirname, "src", env),
-      "@lib": path.join(__dirname, "lib")
+      "@env": path.join(process.cwd(), "src", env)
     }
   }
 };
