@@ -1,4 +1,4 @@
-import {Player} from "ractive-player";
+import {Player} from "liqvid";
 import {RecordingControl} from "rp-recording";
 
 export default (<>

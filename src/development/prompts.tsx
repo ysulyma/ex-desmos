@@ -27,7 +27,7 @@ export function DemoPrompt() {
         The reason we're interested in this concept is that if we've got a complicated function, and we can break it down as a composite of simpler functions, we can often understand something about the complicated function just by understanding it for each of the simpler functions individually. For example, in calculus we're interested in
       </Cue>
       <Cue on="demo/tangents">
-        *tangent lines* to a curve. The *chain rule* says thatt h eslope of the tangent line at a point on the composite graph is the
+        *tangent lines* to a curve. The *chain rule* says that the slope of the tangent line at a point on the composite graph is the
       </Cue>
       <Cue on="demo/slopes">
         product of the slopes of the tangent lines at the corresponding points on the graphs of f and g.

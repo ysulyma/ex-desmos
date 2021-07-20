@@ -1,6 +1,5 @@
 import Desmos from "desmos";
 
-
 import * as bz from "bezier-easing";
 
 import {animate} from "../helpers";

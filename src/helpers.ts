@@ -1,8 +1,8 @@
 import {useCallback, useContext, useEffect, useState} from "react";
-import {Utils, useMarkerUpdate, useTimeUpdate} from "ractive-player";
+import {Utils, useMarkerUpdate, useTimeUpdate} from "liqvid";
 const rpAnimate = Utils.animation.animate;
 
-/* these will be included in the next version of RP maybe */
+/* these will be included in the next version of Liqvid maybe */
 
 export function useValueM<T>(timer: (n: number) => T) {
   const [val, setVal] = useState(timer(0));

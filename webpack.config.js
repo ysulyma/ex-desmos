@@ -9,6 +9,7 @@ module.exports = {
 
   externals: {
     "desmos": "Desmos",
+    "liqvid": "Liqvid",
     "ractive-player": "RactivePlayer",
     "react": "React",
     "react-dom": "ReactDOM",

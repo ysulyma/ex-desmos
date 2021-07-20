@@ -1,4 +1,4 @@
-import {Utils} from "ractive-player";
+import {Utils} from "liqvid";
 const {constrain} = Utils.misc;
 
 import {LINE_COLOR, drawLineU, drawLineY} from "./config";

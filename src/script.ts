@@ -1,4 +1,4 @@
-import {Script} from "ractive-player";
+import {Script} from "liqvid";
 
 const markers = [
   ["demo/", "0:05.516"],
