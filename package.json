@@ -35,6 +35,7 @@
     "rp-prompt": "^1.1.0",
     "rp-recording": "^2.1.0",
     "ts-loader": "^9.2.2",
+    "ts-node": "^10.1.0",
     "typescript": "^4.3.2",
     "webpack": "^5.38.1"
   }
