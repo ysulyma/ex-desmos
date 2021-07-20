@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/ysulyma/ex-desmos.git"
   },
+  "scripts": {
+    "start": "ts-node -T server.ts"
+  },
   "bugs": {
     "url": "https://github.com/ysulyma/ex-desmos/issues"
   },
