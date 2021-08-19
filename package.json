@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/ysulyma/ex-desmos.git"
   },
+  "scripts": {
+    "start": "ts-node -T server.ts"
+  },
   "bugs": {
     "url": "https://github.com/ysulyma/ex-desmos/issues"
   },
@@ -33,6 +36,7 @@
     "rp-prompt": "^1.1.0",
     "rp-recording": "^2.1.0",
     "ts-loader": "^9.2.2",
+    "ts-node": "^10.1.0",
     "typescript": "^4.3.2",
     "webpack": "^5.38.1"
   }

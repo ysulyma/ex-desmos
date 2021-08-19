@@ -1,4 +1,6 @@
 const TerserPlugin = require("terser-webpack-plugin");
+const path = require("path");
+const env = process.env.NODE_ENV || "development";
 
 module.exports = {
   entry: `./src/index.tsx`,
@@ -14,7 +16,7 @@ module.exports = {
     "react-dom": "ReactDOM",
   },
 
-  mode: process.env.NODE_ENV,
+  mode: env,
 
   module: {
     rules: [
@@ -43,7 +45,7 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
     alias: {
-      "@env": `${process.cwd()}/src/${process.env.NODE_ENV}`
+      "@env": path.join(process.cwd(), "src", env)
     }
   }
 };
