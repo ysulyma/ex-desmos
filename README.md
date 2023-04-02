@@ -1,4 +1,4 @@
-This repository demonstrates how to use [Desmos](https://www.desmos.com/api/v1.6/docs/) inside an [interactive video](https://ractive-player.org/).
+This repository demonstrates how to use [Desmos](https://www.desmos.com/api/v1.6/docs/) inside an [interactive video](https://liqvidjs.org/).
 
 ## Setup
 
@@ -37,4 +37,4 @@ https://www.desmos.com/api/v1.6/docs/
 
 https://github.com/ysulyma/desmos-react
 
-https://ractive-player.org/docs/
+https://liqvidjs.org/docs/
